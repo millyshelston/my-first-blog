@@ -1,6 +1,6 @@
 h1 a {
-    color: #FCA205;
-    font-family: 'Lobster';
+    color: #6CD3E0;
+    font-family: 'Roboto Condensed';
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', cursive;
 }
 
 .date {
