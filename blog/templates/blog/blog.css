@@ -27,6 +27,11 @@ h1, h2, h3, h4 {
     font-family: 'Roboto Condensed', cursive;
 }
 
+p {
+	margin-left: 100
+	margin-right 100
+
+}
 .date {
     color: #828282;
 }
