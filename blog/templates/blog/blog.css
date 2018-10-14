@@ -8,8 +8,9 @@ body {
 }
 
 .page-header {
-    background-color: #52D8D0;
-    margin-top: 0 auto;
+    background-color: #ff867fcf;
+    margin-top: 0;
+    text-align: center;
     padding: 20px 20px 20px 40px;
 }
 
