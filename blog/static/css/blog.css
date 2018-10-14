@@ -1,32 +1,45 @@
 h1 a {
-    color: #47EDEA;
+    color: #00000000;
     font-family: 'Roboto Condensed';
 }
 
 body {
-    padding-left: 15px;
+    margin-left: 150;
+    margin-right: 150;
+}
+
+element.style {
+	background: #F39E8D;
+
 }
 
 .page-header {
-    background-color: #000000;
+    background-color: #F39E8D;;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    text-align: center;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
+    color: #47EDEA;
+    font-size: 50pt;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 0 auto;
+    font-family: 'Roboto Condensed';
+    text-align: -webkit-left;
+
 }
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Condensed', cursive;
-}
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
 
+}
 .date {
     color: #828282;
 }
@@ -36,14 +49,14 @@ h1, h2, h3, h4 {
 }
 
 .post-form textarea, .post-form input {
-    width: 100%;
+    width: 50%;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    margin-right: 0 auto;
 }
 
 .post {
