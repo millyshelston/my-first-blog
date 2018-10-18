@@ -14,6 +14,15 @@ def blog1(request):
 
 def blog2(request):
     return render(request, 'blog/blog2.html')
+    
+def blog3(request):
+    return render(request, 'blog/blog2.html')
+
+def blog4(request):
+    return render(request, 'blog/blog2.html')
+
+def blog5(request):
+    return render(request, 'blog/blog2.html')
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
