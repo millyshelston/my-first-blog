@@ -13,6 +13,13 @@ element.style {
 
 }
 
+href="/blog1" {
+    font-family: 'Roboto Condensed';
+    font-size: 25;
+    color: black;
+
+ }
+
 .page-header {
     background-color: #F39E8D;;
     margin-top: 5;
