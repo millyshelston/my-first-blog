@@ -12,6 +12,9 @@ def post_list(request):
 def blog1(request):
     return render(request, 'blog/blog1.html')
 
+def blog2(request):
+    return render(request, 'blog/blog2.html')
+
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
