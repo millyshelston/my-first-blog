@@ -27,7 +27,7 @@ element.style {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #828282;
+    color: #6F6E6E;
     font-size: 48pt;
     text-decoration: none;
 }
@@ -42,9 +42,14 @@ element.style {
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Condensed', cursive;
-    height: 100px
+    height: 80px
     width: 200px
     margin: 0 auto;
+
+blog1.html {
+	font: Roboto Condensed
+	font-size: 18;
+}
 
 }
 .date {
