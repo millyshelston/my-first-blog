@@ -28,10 +28,10 @@ element.style {
 
 .blog1 {
     font-family: 'Roboto Condensed'
-    font-size: 25;
+    font-size: 30;
     color: #6F6E6E;
-    padding-top: 20;
     padding-bottom: 20;
+    padding-top: 8;
 
 }
 
@@ -39,7 +39,7 @@ element.style {
     margin-left: 0 auto;
     font-family: 'Roboto Condensed';
     text-align: -webkit-left;
-    font-size: 25;
+    font-size: 30;
     color: #6F6E6E;
 }
 
