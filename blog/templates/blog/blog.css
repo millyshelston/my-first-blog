@@ -32,6 +32,13 @@ element.style {
     text-decoration: none;
 }
 
+.blog1 {
+	color:#6F6E6E;
+	font-size: 25;
+	font-family: 'Roboto Condensed'
+
+}
+
 .content {
     margin-left: 0 auto;
     font-family: 'Roboto Condensed';
@@ -46,10 +53,6 @@ h1, h2, h3, h4 {
     width: 200px
     margin: 0 auto;
 
-blog1.html {
-	font: Roboto Condensed
-	font-size: 18;
-}
 
 }
 .date {
