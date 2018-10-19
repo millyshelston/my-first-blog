@@ -13,10 +13,9 @@ element.style {
 
 }
 
-href="/blog1" {
-    font-family: 'Roboto Condensed';
-    font-size: 25;
-    color: black;
+element.style {
+	margin: auto;
+    font-size: 18;
 
  }
 
@@ -28,8 +27,8 @@ href="/blog1" {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #565252;
-    font-size: 42pt;
+    color: #828282;
+    font-size: 48pt;
     text-decoration: none;
 }
 
@@ -43,6 +42,8 @@ href="/blog1" {
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Condensed', cursive;
+    height: 100px
+    width: 200px
     margin: 0 auto;
 
 }
