@@ -15,15 +15,21 @@ element.style {
 
 .page-header {
     background-color: #F39E8D;;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin-top: 5;
+    padding: 15px 15px 15px 15px;
     text-align: center;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #47EDEA;
-    font-size: 50pt;
+    color: #6F6E6E;
+    font-size: 48pt;
     text-decoration: none;
+}
+
+.blog1 {
+    font-family: 'Roboto Condensed'
+    font-size: 25;
+
 }
 
 .content {
