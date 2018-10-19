@@ -9,12 +9,12 @@ body {
 }
 
 element.style {
-	background: #F39E8D;
+    background: #F39E8D;
 
 }
 
 .page-header {
-    background-color: #F39E8D;;
+    background-color: #F39E8D;
     margin-top: 5;
     padding: 15px 15px 15px 15px;
     text-align: center;
@@ -29,6 +29,9 @@ element.style {
 .blog1 {
     font-family: 'Roboto Condensed'
     font-size: 25;
+    color: #6F6E6E;
+    padding-top: 20;
+    padding-bottom: 20;
 
 }
 
@@ -36,13 +39,14 @@ element.style {
     margin-left: 0 auto;
     font-family: 'Roboto Condensed';
     text-align: -webkit-left;
-
+    font-size: 25;
+    color: #6F6E6E;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Condensed', cursive;
-    height: 200px;
-    width: 200px;
+    height: 90px;
+    width: auto;
     margin: 0 auto;
 
 }
