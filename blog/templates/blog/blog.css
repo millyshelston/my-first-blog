@@ -30,11 +30,6 @@ element.style {
     color: #6F6E6E;
     font-size: 48pt;
     text-decoration: none;
-}
-
-.blog1 {
-    font-family: 'Roboto Condensed'
-    font-size: 25;
 
 }
 
@@ -43,6 +38,7 @@ element.style {
     font-family: 'Roboto Condensed';
     text-align: -webkit-left;
     margin: inherit;
+    font-size: 25
 
 }
 
