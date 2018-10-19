@@ -39,6 +39,8 @@ element.style {
     margin-left: 0 auto;
     font-family: 'Roboto Condensed';
     text-align: -webkit-left;
+    padding-bottom: 20;
+    padding-top: 8;
     font-size: 30;
     color: #6F6E6E;
 }
