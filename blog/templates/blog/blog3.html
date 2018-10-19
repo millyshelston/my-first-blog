@@ -1,4 +1,4 @@
-<title> Blog 3 </title>
+{% load static %}
 <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 
 <header> Blog Post 3 </header>
@@ -17,5 +17,9 @@ Using GitHub and python anywhere was relatively easily due to already using pyth
 <img src= "pythonanywhere.jpg">
 
 <p> Once I learnt how to use git commands properly it made updating my blog a lot easier as I started to understand what each command meant so I did not have to keep looking back in the tutorial to figure out what to type to perform what I wanted, thus improving my code literacy. </p>
+
+{% block content %}
+            {% endblock %}
+
 
 

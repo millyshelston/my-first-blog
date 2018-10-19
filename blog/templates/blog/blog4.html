@@ -1,5 +1,5 @@
-<title> Blog 4 </title>
-<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/blog.css' %}"> 
 
 <header> Blog Post 4 </header>
 
@@ -14,4 +14,5 @@ In relation to my website blog progress, I decided to customize my blog a little
 
 I was very happy with joining the Django Girls tutorial gitter group chat and I think it is a great resource for me, there are many people asking questions and providing guidance when errors occur.  My website blog was reporting the issue as needing to fix DEBUG and the group chat kindly assisted me in moving past this step. I did not commit my local changes properly and my repertories were not up to date, as I did not commit and push them correctly. After fixing this step and pushing them correctly my blog was up and running! </p>
 
-
+{% block content %}
+            {% endblock %}

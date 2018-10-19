@@ -1,4 +1,4 @@
-<title> Blog 2 </title>
+{% load static %}
 <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 
 <header> Blog Post 2 </header>
@@ -11,4 +11,7 @@ The first step to creating a blog is setting up a virtual environment in Python 
 
 I was stuck on this step for over a week and could not figure out the problem or what I needed to do to fix the situation, I decided I would ask my tutor for help as all the research and methods I tried were unsuccessful. He suggested I follow the actual Django Girls tutorial released by Django not the one on our class website as it is more recent and up to date. As a result, I decided to re-start my whole project to ensure what I was coding and entering is the most recent information and it finally worked! I past the step and I could code “python manage.py make migrations blog”and was finally able to progress in my website. 
 
-Although I have been following step by step the tutorial I want to put my own twist on the blog website and make it appear different or function differently to what they have produced in the Tutorial.  I believe by adding my own creativity to the blog website it highlights my code literacy and sets me apart from the tutorial.  I discovered Python is known as a glue language, thus you can take code from other languages. Ford states this as you can “embed the older, faster code in the newer, slower, but easier-to-use system” (Ford 2015), this has got me thinking once I finish the steps and have created my blog I should important other code or other features into my blog to enhance my code literacy. </p> 
+Although I have been following step by step the tutorial I want to put my own twist on the blog website and make it appear different or function differently to what they have produced in the Tutorial.  I believe by adding my own creativity to the blog website it highlights my code literacy and sets me apart from the tutorial.  I discovered Python is known as a glue language, thus you can take code from other languages. Ford states this as you can “embed the older, faster code in the newer, slower, but easier-to-use system” (Ford 2015), this has got me thinking once I finish the steps and have created my blog I should important other code or other features into my blog to enhance my code literacy. </p>
+
+{% block content %}
+            {% endblock %}
